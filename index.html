@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <span>C</span><span>o</span><span>l</span><span>o</span><span>r</span>
+        Picker
+      </h1>
+    </header>
+    <main>
+      <div class="input-color">
+        <div><h2>Enter:</h2></div>
+        <div>
+          <h3 class="red">Red</h3>
+          <input
+            onchange="showData()"
+            id="red-input"
+            min="0"
+            max="255"
+            value="0"
+            class="red"
+            type="number"
+          />
+        </div>
+        <div>
+          <h3 id="green-text" class="green">Green</h3>
+          <input
+            onchange="showData()"
+            id="green-input"
+            min="0"
+            max="255"
+            value="0"
+            class="green"
+            type="number"
+          />
+        </div>
+        <div>
+          <h3 class="blue">Blue</h3>
+          <input
+            onchange="showData()"
+            id="blue-input"
+            min="0"
+            max="255"
+            value="0"
+            class="blue"
+            type="number"
+          />
+        </div>
+      </div>
+      <div class="circle-color">
+        <div class="circle"></div>
+      </div>
+      <div class="color-code">
+        <h2>Color Code:</h2>
+
+        <div>
+          <span class="red">R</span
+          ><span class="green">G<span class="blue">B</span>(</span>
+          <span id="red-code" class="red"></span>
+          <span id="green-code" class="green"></span>
+          <span id="blue-code" class="blue"></span>
+          )
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

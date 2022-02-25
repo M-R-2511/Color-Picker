@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 120vh;
+}
+header h1 {
+  text-align: center;
+  font-size: 80px;
+  margin: auto;
+  margin-top: 64px;
+  width: fit-content;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 span:nth-child(1) {
+  color: #ff0000;
+}
+header h1 span:nth-child(2) {
+  color: #f800f0;
+}
+header h1 span:nth-child(3) {
+  color: #5d00ff;
+}
+header h1 span:nth-child(4) {
+  color: #00eeff;
+}
+header h1 span:nth-child(5) {
+  color: #00ff6d;
+}
+main {
+  margin-top: 100px;
+  text-align: center;
+}
+.input-color {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+}
+h2 {
+  margin-right: 25px;
+  font-size: 40px;
+}
+.input-color div h3 {
+  text-align: center;
+  width: fit-content;
+  margin: 5px auto;
+  margin-right: 40px;
+  font-size: 25px;
+}
+#green-text {
+    margin-right: 30px;
+}
+.red {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.blue {
+  color: #5d00ff;
+  border-color: #5d00ff;
+}
+.green {
+  color: #09b453;
+  border-color: #09b453;
+}
+input {
+  border: 1px solid;
+  outline: none;
+  width: 72px;
+  height: 25px;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.circle-color {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 60px;
+}
+.circle {
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+  /* background: rgb(0, 0, 0); */
+}
+
+.color-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.color-code span {
+    font-size: 25px;
+}
