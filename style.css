@@ -77,11 +77,11 @@ h2 {
 input {
   border: 1px solid;
   outline: none;
-  width: 72px;
-  height: 25px;
+  min-width: 80px;
+  height: 30px;
   margin-right: 25px;
   text-align: center;
-  font-size: 23px;
+  font-size: 17px;
 }
 
 .circle-color {
