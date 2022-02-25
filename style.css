@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-    height: 120vh;
+  min-height: 105vh;
+  font-family: serif;
 }
 header h1 {
   text-align: center;
@@ -37,7 +38,14 @@ main {
 .input-color {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   align-content: center;
 }
 h2 {
@@ -52,7 +60,7 @@ h2 {
   font-size: 25px;
 }
 #green-text {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 .red {
   color: #ff0000;
@@ -88,7 +96,6 @@ input {
   width: 246px;
   height: 246px;
   border-radius: 50%;
-  /* background: rgb(0, 0, 0); */
 }
 
 .color-code {
@@ -96,8 +103,9 @@ input {
   justify-content: center;
   align-items: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .color-code span {
-    font-size: 25px;
+  font-size: 30px;
 }
