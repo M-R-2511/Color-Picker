@@ -24,6 +24,7 @@
             <input
               onchange="showData()"
               id="red-input"
+              value="255"
               min="0"
               max="255"
               placeholder="max:255"
@@ -36,6 +37,7 @@
             <input
               onchange="showData()"
               id="green-input"
+              value="0"
               min="0"
               max="255"
               placeholder="max:255"
@@ -48,6 +50,7 @@
             <input
               onchange="showData()"
               id="blue-input"
+              value="0"
               min="0"
               max="255"
               placeholder="max:255"
@@ -55,6 +58,13 @@
               type="number"
             />
           </div>
+          <input
+            onchange="progressColor(this)"
+            type="range"
+            min="0"
+            max="765"
+            value="0"
+          />
         </div>
       </div>
       <div class="circle-color">
